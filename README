@@ -1,0 +1,5 @@
+rdiff-snapshot-fs takes a backup repository created with rdiff-backup and
+exposes a virtual filesystem (via FUSE) that shows each of the individual
+snapshots and their contents.
+
+Copyright (C) 2010 Phil Sung <psung at alum.mit.edu>

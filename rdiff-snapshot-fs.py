@@ -542,6 +542,7 @@ def main(argv):
         usage = usage_msg,
         dash_s_do = "setsingle")
     fs.parse(errex = 1)
+    fs.multithreaded = False
     fs.main()
 
 if __name__ == "__main__":

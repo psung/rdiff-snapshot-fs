@@ -38,7 +38,7 @@ fuse.fuse_python_api = (0, 2)
 
 # The interesting lines in the output of "rdiff-backup -l" (list all snapshots)
 # should match this pattern.
-INCREMENTS_PATTERN = re.compile(r"^    increments\.([-0-9T:]+)\.dir   [A-Za-z0-9 :]+$")
+INCREMENTS_PATTERN = re.compile(r"^    increments\.([-+0-9T:]+)\.dir   [A-Za-z0-9 :]+$")
 
 # Increment files in the increments/ directory should match the following
 # pattern. We use the pattern to extract the interesting components from the
